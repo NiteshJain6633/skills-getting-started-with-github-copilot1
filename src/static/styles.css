@@ -74,6 +74,91 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participant-section {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-left: 3px solid #3949ab;
+  border-radius: 6px;
+  background-color: #eef1ff;
+}
+
+.participant-section h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  color: #1a237e;
+  font-size: 15px;
+}
+
+.participant-count {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 7px;
+  border-radius: 12px;
+  background-color: #dce2ff;
+  color: #1a237e;
+  font-size: 12px;
+}
+
+.participant-list {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  list-style: none;
+}
+
+.participant-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 0;
+  overflow-wrap: anywhere;
+}
+
+.remove-participant {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #b3261e;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.remove-participant:hover {
+  background-color: #fce8e6;
+}
+
+.remove-participant svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.remove-participant:focus-visible {
+  outline: 2px solid #b3261e;
+  outline-offset: 2px;
+}
+
+.participant-list li.empty {
+  display: block;
+  color: #777;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
